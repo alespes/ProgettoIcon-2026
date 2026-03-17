@@ -1,0 +1,4 @@
+price,minimum nights,availability 365,reviews per month,cluster,neighbourhood group,host_identity_verified,room type,cancellation_policy
+630.0888729735009,2.375610391301517,147.5090175141611,3.917663259326779,0.0,Brooklyn,verified,Entire home/apt,moderate
+627.9063281951369,6.264512062345998,38.511623020648294,0.56441235459286,1.0,Brooklyn,verified,Entire home/apt,moderate
+618.9228415631627,10.94728870039382,295.9735837624962,0.7000657376552559,2.0,Manhattan,unconfirmed,Entire home/apt,strict
