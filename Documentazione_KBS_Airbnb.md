@@ -158,7 +158,7 @@ La regola D1 è ibrida ML+KB: non esprimibile in OWL puro perché richiede l'agg
 
 Scelta di k=3 validata dalla separabilità nel piano PCA 2D e confermata dal GMM. Gli outlier con z-score > 3 sulle componenti PCA vengono rimossi dalla visualizzazione (non dal training).
 
-**[Grafico: results/plots/clustering/kmeans_pca_clusters.png]**
+![GMM Cluster](results/plots/clustering/kmeans_pca_clusters.png)
 
 **Profili dei cluster (medie):**
 
@@ -181,7 +181,7 @@ Il Gaussian Mixture Model (3 componenti, `covariance_type='full'`) produce:
 
 I valori negativi di grande magnitudine indicano un ottimo fit. L'allineamento tra le hard-assignment K-Means e le soft-assignment GMM conferma la robustezza della struttura a 3 cluster.
 
-**[Grafico: results/plots/clustering/gmm_certainty.png]**
+![GMM Certainty](results/plots/clustering/gmm_certainty.png)
 
 ---
 
@@ -214,7 +214,7 @@ Feature escluse: `price` (target), `host_identity_verified`, `neighbourhood grou
 | Std predizioni | 239.82 |
 | Std valori reali | 331.68 |
 
-**[Grafico: results/plots/regression/regression_scatter_randomforestregressor.png]**
+![GMM Random Forest](results/plots/regression/regression_scatter_randomforestregressor.png)
 
 Il modello spiega l'84.9% della varianza del prezzo. La differenza tra std predizioni (239.82) e std valori reali (331.68) indica compressione della distribuzione: il modello sottostima i prezzi estremi, comportamento tipico dei metodi ensemble che mediano su più alberi. Il lieve gap tra R² CV (0.8319) e R² test set (0.8493) è nella norma e non indica overfitting.
 
