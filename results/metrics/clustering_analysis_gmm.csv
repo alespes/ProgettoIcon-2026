@@ -1,0 +1,4 @@
+minimum nights,availability 365,reviews per month,cluster,neighbourhood group,host_identity_verified,room type,cancellation_policy
+7.023465627960838,137.01788609327298,1.1397629224128856,0.0,Manhattan,unconfirmed,Entire home/apt,moderate
+5.475654772367728,179.40341008964668,1.3699384777641062,1.0,Bronx,unconfirmed,Shared room,moderate
+208.10539215686273,186.7312091503268,2.056985294117647,2.0,Manhattan,verified,Entire home/apt,strict
